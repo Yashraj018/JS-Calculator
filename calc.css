@@ -1,0 +1,125 @@
+body {
+    background:#ffae00;
+    font-size: 10px;
+  }
+  
+  body, button, input {
+      /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .background {
+    display: flex;
+    /* min-height: 300px; */
+  }
+  
+  .container {
+    flex: 0 1 700px;
+    margin: auto;
+    padding: 150px;
+  }
+  
+  .box {
+    position: relative;
+    background: #983202;
+    border-radius: 20px;
+  }
+  
+  .box:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 25px;
+    right: 25px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(58, 30, 1, 0.844);
+    z-index: -1;
+  }
+  
+  .screen-body {
+    display: flex;
+  }
+  
+  .box-body-item {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #e8cabc;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 0.5ch;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .input-holder {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #ddd;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .input-holder::placeholder {
+    color: #FFF;
+  }
+  
+  .input-holder:focus {
+    border-bottom-color: #ddd;
+  }
+  
+  .form-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .form-button:hover {
+    color: #3d1503;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .showdata{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
