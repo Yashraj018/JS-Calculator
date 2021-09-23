@@ -1,6 +1,7 @@
 body {
     background:#ffae00;
     font-size: 10px;
+    overflow : hidden;
   }
   
   body, button, input {
