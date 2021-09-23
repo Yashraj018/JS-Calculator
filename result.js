@@ -9,10 +9,10 @@ const calculate = () =>{
 
 
   let totalMarks = parseFloat(english) + parseFloat(maths) + parseFloat(comp) + parseFloat(phy) + parseFloat(chem);
-  alert(totalMarks);
+  //alert(totalMarks);
 
   let percentage = (totalMarks/500) * 100;
-  alert(percentage);
+  //alert(percentage);
 
 
 
